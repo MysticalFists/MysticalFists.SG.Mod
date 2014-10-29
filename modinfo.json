@@ -1,0 +1,24 @@
+{
+    "context": "server",
+    "identifier": "MysticalFists.SG.Mod",
+    "display_name": "MysticalFists Orbital Teleporter Mod",
+    "description": "This mod adds an orbital teleporter to the game.  Currently, there is a broken build icon for it in game",
+    "author": "MysticalFists",
+    "version": "0.1",
+    "build": "73737",
+    "date": "2014/10/29",
+    "signature": "not yet implemented",
+    "forum": "https://forums.uberent.com/threads/stargate-supergate.65473/",
+    "icon": "https://raw.githubusercontent.com/MysticalFists/PAGWC/master/MysticalFists.GW.Cheats/ui/mods/MysticalFistsTech/MysticalFists.png",
+    "category": [
+        "in-game"
+    ],
+    "scenes": {
+		"live_game": [
+			"coui://ui/main/shared/js/build.js",
+			"coui://pa/units/unit_list.json"
+		]
+	},
+    "priority": 100,
+    "enabled": true
+}
